@@ -12,7 +12,7 @@ while(confirm("¿Desea ingresar un DNI?")) {
     let dni = parseInt(prompt("Ingrese un DNI"));
     let resto = "";
 
-    if(dni > 99999999 || dni < 0 || isNaN(dni)) {
+    if( isNaN(dni) && dni > 99999999 && dni < 0 ) {
          alert("Ingrese un DNI correcto");
     } else {
         resto = dni % 23;
