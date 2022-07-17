@@ -2,6 +2,6 @@
 
 let texto = prompt("Ingrese un texto");
 
-for(let i=0; i <texto.length; i++) {
-    document.write(texto.charAt(i) + "-");
+for (let i = 0; i < texto.length; i++) {
+  document.write(texto.charAt(i) + "-");
 }

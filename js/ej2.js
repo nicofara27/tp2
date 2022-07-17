@@ -11,31 +11,29 @@
 
 let nota = parseInt(prompt("Ingrese su nota"));
 
-
-
-switch(true) {
-    case (nota<=2): {
-        alert("Usted tiene una nota muy deficiente");
-        break;
-    }
-    case (nota<=4): {
-        alert("Usted tiene una nota insuficiente");
-        break;
-    }
-    case (nota<=6): {
-        alert("Usted tiene una nota suficiente");
-        break;
-    }
-    case (nota<=8): {
-        alert("Usted tiene una nota notable");
-        break;
-    }
-    case (nota<=10): {
-        alert("Usted tiene una nota sobresaliente");
-        break;
-    }
-    default: {
-        alert("Ingrese una nota valida");
-        break;
-    }
+switch (true) {
+  case nota <= 2: {
+    alert("Usted tiene una nota muy deficiente");
+    break;
+  }
+  case nota <= 4: {
+    alert("Usted tiene una nota insuficiente");
+    break;
+  }
+  case nota <= 6: {
+    alert("Usted tiene una nota suficiente");
+    break;
+  }
+  case nota <= 8: {
+    alert("Usted tiene una nota notable");
+    break;
+  }
+  case nota <= 10: {
+    alert("Usted tiene una nota sobresaliente");
+    break;
+  }
+  default: {
+    alert("Ingrese una nota valida");
+    break;
+  }
 }

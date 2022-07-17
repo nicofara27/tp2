@@ -2,13 +2,13 @@
 
 let suma = 0;
 
-while(confirm("¿Desea ingresar un numero?")) {
-    let numero = parseInt(prompt("Ingrese un numero"));
-    if(isNaN(numero) === false) {
-        suma = suma + numero;
-    } else {
-        alert("Usted no ingreso un numero, por favor intente nuevamente");
-    }
+while (confirm("¿Desea ingresar un numero?")) {
+  let numero = parseInt(prompt("Ingrese un numero"));
+  if (isNaN(numero) === false) {
+    suma = suma + numero;
+  } else {
+    alert("Usted no ingreso un numero, por favor intente nuevamente");
+  }
 }
 
 document.write("El resultado de la suma es: " + suma);
