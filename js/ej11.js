@@ -8,6 +8,7 @@ let name3 = prompt("Ingrese el tercer nombre");
 let age1 = parseInt(prompt("Ingrese la edad de " + name1));
 let age2 = parseInt(prompt("Ingrese la edad de " + name2));
 let age3 = parseInt(prompt("Ingrese la edad de " + name3));
+
 let mayor = Math.max(age1, age2, age3);
 
 if (mayor === age1 && age1 === age2 && age1 === age3) {

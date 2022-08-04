@@ -4,7 +4,11 @@ let fraseCompleta = "";
 
 while (confirm("¿Desea ingresar palabaras?")) {
   let textoIngresado = prompt("Ingrese una palabra");
-  fraseCompleta = fraseCompleta + textoIngresado + " - ";
+  if (fraseCompleta == "") {
+    fraseCompleta = fraseCompleta + textoIngresado;
+  } else {
+    fraseCompleta = fraseCompleta + " - " + textoIngresado;
+  }
 }
 
 document.write(fraseCompleta);
